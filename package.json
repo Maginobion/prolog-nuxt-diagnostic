@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build; touch CMakeLists.txt; yum -y install cmake3-gui.x86_64; yum -y install cmake.x86_64; git clone https://github.com/SWI-Prolog/swipl-devel.git;cd swipl-devel;git submodule update --init;mkdir build;cd build; cmake -DCMAKE_INSTALL_PREFIX=$HOME -G Ninja ..;ninja;ctest -j 4;ninja install;",
+    "build": "nuxt build; touch CMakeLists.txt; yum -y install cmake3-gui.x86_64; yum -y install cmake3.x86_64; git clone https://github.com/SWI-Prolog/swipl-devel.git;cd swipl-devel;git submodule update --init;mkdir build;cd build; cmake -DCMAKE_INSTALL_PREFIX=$HOME -G Ninja ..;ninja;ctest -j 4;ninja install;",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
