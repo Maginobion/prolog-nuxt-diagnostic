@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build; yum install tar.x86_64; curl -L https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1-linux-x86_64.sh -o cmake.sh; chmod +xwr cmake.sh; echo 'y y' | ./cmake.sh; pwd -LP;export PATH=$PATH:/vercel/path0/cmake-3.24.2-linux-x86_64/bin;git clone https://github.com/SWI-Prolog/swipl-devel.git;cd swipl-devel;git submodule update --init;mkdir build;cd build; cmake -DCMAKE_INSTALL_PREFIX=$HOME -G Ninja ..;ninja;ctest -j 4;ninja install;",
+    "build": "nuxt build; yum install tar.x86_64; curl -L https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1-linux-x86_64.sh -o cmake.sh; chmod +xwr cmake.sh; echo 'y y' | ./cmake.sh; pwd -LP;export PATH=$PATH:/home/vercel/path0/cmake-3.24.2-linux-x86_64/bin;git clone https://github.com/SWI-Prolog/swipl-devel.git;cd swipl-devel;git submodule update --init;mkdir build;cd build; cmake -DCMAKE_INSTALL_PREFIX=$HOME -G Ninja ..;ninja;ctest -j 4;ninja install;",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
