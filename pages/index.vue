@@ -24,8 +24,6 @@
         },
     })
 
-    const output = ref('')
-
     const consultar = async (e:Event) =>{
         const inputs = e.target as HTMLFormElement
         const formData = new FormData(inputs)
