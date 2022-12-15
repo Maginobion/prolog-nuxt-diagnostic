@@ -48,25 +48,25 @@
     }
 
     const questions = [
-        "dolor en el pecho",
-        "fiebre alta",
-        "sudoración nocturna",
-        "cansancio extremo",
-        "perdida de apetito",
-        "perdida de peso",
-        "fiebre baja",
-        "fatiga",
-        "dolor de cabeza",
-        "escalofrios",
-        "dolor abdominal",
-        "tos mas de 3 meses",
-        "tos con flema",
-        "dificultad para respirar",
-        "sudoración",
-        "tos cronica",
-        "perdida de peso",
-        "dolor en las articulaciones",
-        "sensación de presión en el pecho",
+        "Dolor en el pecho",
+        "Fiebre alta",
+        "Sudoración nocturna",
+        "Cansancio extremo",
+        "Perdida de apetito",
+        "Perdida de peso",
+        "Fiebre baja",
+        "Fatiga",
+        "Dolor de cabeza",
+        "Escalofrios",
+        "Dolor abdominal",
+        "Tos mas de 3 meses",
+        "Tos con flema",
+        "Dificultad para respirar",
+        "Sudoración",
+        "Tos cronica",
+        "Perdida de peso",
+        "Dolor en las articulaciones",
+        "Sensación de presión en el pecho",
         "Tos norma",
     ]
 
@@ -74,9 +74,10 @@
 
 <style scoped>
 h1{
-    color: #00B295;
+    color: #06b396;
 }
 main{
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

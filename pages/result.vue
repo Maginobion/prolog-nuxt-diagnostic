@@ -5,7 +5,7 @@
             <p>Tienes: {{enfermedadDetectada(disease)?.name}}</p>
             <p>Descripcion: {{enfermedadDetectada(disease)?.desc}}</p>
         </div>
-        <p v-else>Felicidades, estás sano</p>
+        <p class="alive" v-else>Felicidades, estás sano</p>
         <NuxtLink to="/">Regresar</NuxtLink>
     </main>
 </template>
@@ -23,7 +23,7 @@
 
     const enfermedadDetectada = (enf:string) =>{
         if (!enf) return null
-        const pos = Number(enf.slice(1,enf.length))
+        const pos = Number(enf.slice(1,enf.length))-1
         return enfermedades[pos]
     }
 
@@ -59,6 +59,7 @@
 <style scoped>
 main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,6 +79,10 @@ a{
     text-decoration: none;
     margin: 20px;
 }
+div{
+    width: 35%;
+}
+
 </style>
 
 <style>
