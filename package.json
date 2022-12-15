@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build; sudo apt-get install software-properties-common; sudo apt-add-repository ppa:swi-prolog/stable;sudo apt-get update;sudo apt-get install swi-prolog",
+    "build": "nuxt build; sudo apt-get install software-properties-common; yum install ppa:swi-prolog/stable;yum install swi-prolog",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
