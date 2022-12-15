@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build; wget https://www.swi-prolog.org/download/stable/src/swipl-9.0.2.tar.gz;tar -zxvf ./swipl-9.0.2.tar.gz;./swipl-9.0.2.tar.gz;",
+    "build": "nuxt build; git clone https://github.com/SWI-Prolog/swipl-devel.git; cd swipl-devel; git submodule update --init;cd swipl-devel;mkdir build;cd build;cmake -DCMAKE_INSTALL_PREFIX=/usr/local ..;make;ctest -j 4;sudo make install",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",

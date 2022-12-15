@@ -49,31 +49,27 @@
         })
     }
 
-    const enfermedades = [
-
-    ]
-
     const questions = [
-        "Dolor de espalda",
-        "Dolor de dientes",
-        "Caída del cabello",
-        "Mareos",
-        "Elpepe",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "19",
-        "20"
+        "dolor en el pecho",
+        "fiebre alta",
+        "sudoración nocturna",
+        "cansancio extremo",
+        "perdida de apetito",
+        "perdida de peso",
+        "fiebre baja",
+        "fatiga",
+        "dolor de cabeza",
+        "escalofrios",
+        "dolor abdominal",
+        "tos mas de 3 meses",
+        "tos con flema",
+        "dificultad para respirar",
+        "sudoración",
+        "tos cronica",
+        "perdida de peso",
+        "dolor en las articulaciones",
+        "sensación de presión en el pecho",
+        "Tos norma",
     ]
 
 </script>
