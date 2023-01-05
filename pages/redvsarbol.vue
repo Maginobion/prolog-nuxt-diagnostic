@@ -61,6 +61,7 @@
         counterArbol.value = 0
         valArbol.value=null
         valRed.value=null
+        igualdad.value=''
     }
 
     const makeRequests = async () =>{
@@ -113,7 +114,7 @@ table td, th{
     border: 1px solid gray;
     padding: 1rem 1.2rem;
     overflow: auto;
-    max-width: 500px;
+    max-width: 400px;
 }
 .no{
     border: 0;

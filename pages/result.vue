@@ -6,7 +6,7 @@
             <p>Descripcion: {{enfermedadDetectada(disease)?.desc}}</p>
         </div>
         <p class="alive" v-else>Felicidades, estás sano</p>
-        <NuxtLink to="/">Regresar</NuxtLink>
+        <NuxtLink to="/diagnostic">Regresar</NuxtLink>
     </main>
 </template>
 
